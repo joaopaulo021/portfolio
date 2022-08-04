@@ -1,0 +1,327 @@
+    @media (max-width:1024px) {
+        .aside-container {
+            display: block;
+        }
+        .main-container img {
+            width: 100%;
+        }
+        #sobreMim {
+            height: 100%;
+            width: 100%;
+            position: relative;
+        }
+        /* SKILLS */
+        #skills {
+            height: 100%;
+        }
+        #skills p {
+            margin-top: 20px;
+            position: relative;
+        }
+        .react {
+            margin-top: 15px;
+            width: 90px;
+        }
+        .cards {
+            display: grid;
+            grid-template-columns: repeat(3, 100px);
+            grid-gap: 50px;
+            margin-left: 200px;
+            height: 100%;
+            width: 100%;
+        }
+        .card1 {
+            width: 120px;
+            height: 130px;
+            margin-left: 10px;
+        }
+        .card2 {
+            width: 120px;
+            height: 130px;
+            margin-left: 105px;
+        }
+        .card3 {
+            width: 120px;
+            height: 130px;
+        }
+        .cards img {
+            width: 80px;
+            margin-left: 20px;
+        }
+        /* PROJETOS */
+        #projetos {
+            height: 100%;
+            width: 100%;
+        }
+        .projetos-container {
+            grid-template-columns: repeat(1, 320px);
+            justify-content: center;
+            height: 100%;
+            width: 100%;
+            margin: 0;
+        }
+        .descricao {
+            width: 100%;
+            height: 100%;
+            margin-left: 300px;
+        }
+        .video-projeto {
+            width: 100%;
+            height: 100%;
+            margin-left: 300px;
+        }
+        /* CONTATO */
+        #contato {
+            height: 100%;
+            width: 100%;
+        }
+        #contato i {
+            font-size: 20px;
+            margin-bottom: 25px;
+        }
+    }
+    
+    @media (max-width:840px) {
+        .aside-container {
+            display: none;
+        }
+        .menu-mobile-container {
+            width: 100%;
+            height: 100%;
+            display: block;
+        }
+        /* MAIN CONTAINER */
+        .main-container img {
+            width: 100%;
+        }
+        .main-container {
+            display: flex;
+            align-items: flex-end;
+            width: 100%;
+        }
+        .main-container .txt {
+            font-size: 50px;
+            margin: 0;
+            margin-bottom: 200px;
+            height: 60px;
+        }
+        .main-container .txt2 {
+            font-size: 30px;
+            margin: 0;
+        }
+        #sobreMim {
+            height: 100%;
+            width: 100%;
+            position: relative;
+        }
+        /* SKILLS */
+        #skills {
+            height: 100%;
+            width: 100%;
+        }
+        #skills p {
+            margin-top: 20px;
+            position: relative;
+        }
+        .cards {
+            display: grid;
+            grid-template-columns: repeat(3, 20px);
+            grid-gap: 60px;
+            margin: 0;
+            height: 100%;
+            width: 100%;
+        }
+        .card-container {
+            width: 100%;
+            flex-direction: row;
+            display: flex;
+            border: 2px solid gold;
+        }
+        .card1 {
+            width: 120px;
+            height: 130px;
+            margin-left: 10px;
+        }
+        .card2 {
+            width: 120px;
+            height: 130px;
+            margin-left: 105px;
+        }
+        .card3 {
+            width: 120px;
+            height: 130px;
+        }
+        .react {
+            margin-top: 15px;
+            width: 90px;
+        }
+        .cards img {
+            width: 80px;
+            margin-left: 20px;
+        }
+        /* PROJETOS */
+        #projetos {
+            height: 100%;
+            width: 100%;
+        }
+        .projetos-container {
+            grid-template-columns: repeat(1, 320px);
+            height: 100%;
+            width: 100%;
+            margin: 0;
+        }
+        .descricao {
+            width: 100%;
+            height: 100%;
+            margin-left: 100px;
+        }
+        .video-projeto {
+            width: 100%;
+            height: 100%;
+            margin-left: 100px;
+        }
+        /*CONTATOS*/
+        #contato {
+            height: 100%;
+            width: 100%;
+        }
+        #contato i {
+            font-size: 20px;
+            margin-bottom: 25px;
+        }
+        .btnSociais-container span {
+            justify-content: center;
+            margin-top: 20px;
+            background-color: gray;
+            border-radius: 5px;
+            width: 100%;
+            height: 50px;
+        }
+        .btnSociais-container i {
+            width: 50px;
+        }
+    }
+    
+    @media (max-width:450px) {
+        .aside-container {
+            display: none;
+        }
+        /* MAIN CONTAINER */
+        .main-container img {
+            width: 100%;
+            margin-right: 0;
+            margin-top: 60px;
+        }
+        .main-container {
+            width: 100%;
+            margin: 0;
+        }
+        .main-container .txt {
+            font-size: 25px;
+            width: 180px;
+            margin-bottom: 35px;
+            margin-left: 10px;
+        }
+        .main-container .txt2 {
+            font-size: 20px;
+            height: 30px;
+            margin: 0;
+            margin-left: 10px;
+        }
+        #container-conteudo p {
+            font-size: 20px;
+        }
+        #sobreMim {
+            height: 100%;
+            width: 100%;
+            border-top: 1px solid gray;
+            border-bottom: 1px solid gray;
+            box-shadow: none;
+        }
+        /* SKILLS */
+        #skills {
+            height: 100%;
+            width: 100%;
+            border-top: 1px solid gray;
+            border-bottom: 1px solid gray;
+            box-shadow: none;
+        }
+        #skills p {
+            margin-top: 20px;
+            position: relative;
+        }
+        .react {
+            margin-top: 15px;
+            width: 90px;
+        }
+        .cards {
+            display: grid;
+            grid-template-columns: repeat(3, 20px);
+            grid-gap: 5px;
+            height: 100%;
+            width: 100%;
+        }
+        .card1 {
+            width: 100px;
+            height: 100px;
+            margin-left: 10px;
+        }
+        .card2 {
+            width: 100px;
+            height: 100px;
+        }
+        .card3 {
+            width: 100px;
+            height: 100px;
+        }
+        .cards img {
+            width: 65px;
+        }
+        /* PROJETOS */
+        #projetos {
+            height: 100%;
+            width: 100%;
+            border-top: 1px solid gray;
+            border-bottom: 1px solid gray;
+            box-shadow: none;
+        }
+        .projetos-container {
+            grid-template-columns: repeat(1, 320px);
+            height: 100%;
+            width: 100%;
+        }
+        .descricao {
+            margin-top: 20px;
+            width: 100%;
+            height: 100%;
+            margin-left: 2px;
+            text-align: center;
+        }
+        .video-projeto {
+            width: 100%;
+            height: 100%;
+            margin-left: 2px;
+        }
+        /* CONTATO */
+        #contato {
+            height: 100%;
+            width: 100%;
+        }
+        #contato i {
+            font-size: 20px;
+            margin-bottom: 25px;
+        }
+        .btnSociais-container span {
+            justify-content: center;
+            margin-top: 20px;
+            background-color: gray;
+            border-radius: 5px;
+            width: 100%;
+            height: 50px;
+        }
+        .btnSociais-container i {
+            width: 50px;
+        }
+    }
+    
+    @media (max-width:380px) {}
