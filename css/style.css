@@ -365,6 +365,9 @@
     /*SKILLS*/
     
     #skills {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
         margin: 5px 5px 5px 5px;
         box-shadow: 10px 10px 25px rgba(255, 255, 255, 0.5);
         border-radius: 5px;
@@ -374,6 +377,7 @@
     
     .cards {
         display: flex;
+        justify-content: center;
         width: 100%;
         height: 290px;
         perspective: 1000px;
@@ -381,7 +385,9 @@
     }
     
     .card1 {
-        box-shadow: 10px 10px 25px rgba(255, 255, 255, 0.5);
+        display: flex;
+        justify-content: center;
+        box-shadow: 5px 5px 15px rgba(255, 255, 255, 0.5);
         height: 200px;
         width: 250px;
         background-color: rgb(51, 50, 50);
@@ -392,50 +398,58 @@
         transition: .5s;
     }
     
-    .card2 {
-        box-shadow: 10px 10px 25px rgba(255, 255, 255, 0.5);
-        height: 200px;
-        width: 250px;
-        background-color: rgb(51, 50, 50);
-        border-radius: 10px;
-        margin-left: 200px;
-        margin-top: 40px;
-    }
-    
-    .card3 {
-        box-shadow: 10px 10px 25px rgba(255, 255, 255, 0.5);
-        height: 200px;
-        width: 250px;
-        background-color: rgb(51, 50, 50);
-        border-radius: 10px;
-        margin-left: 200px;
-        margin-top: 40px;
-    }
-    
     .card1 img {
-        width: 130px;
+        background-image: cover;
+        width: 200px;
         opacity: 0.8;
         transition: 0.5s;
-        margin-left: 60px;
+    }
+    
+    .card2 {
+        display: flex;
+        justify-content: center;
+        box-shadow: 5px 5px 15px rgba(255, 255, 255, 0.5);
+        height: 200px;
+        width: 250px;
+        background-color: rgb(51, 50, 50);
+        border-radius: 10px;
+        margin-left: 100px;
+        margin-top: 40px;
+        position: relative;
+        transition: .5s;
     }
     
     .card2 img {
-        width: 130px;
+        background-image: cover;
+        width: 200px;
         opacity: 0.8;
         transition: 0.5s;
-        margin-left: 60px;
+    }
+    
+    .card3 {
+        display: flex;
+        justify-content: center;
+        box-shadow: 5px 5px 15px rgba(255, 255, 255, 0.5);
+        height: 200px;
+        width: 250px;
+        background-color: rgb(51, 50, 50);
+        border-radius: 10px;
+        margin-left: 100px;
+        margin-top: 40px;
+        position: relative;
+        transition: .5s;
     }
     
     .card3 img {
-        width: 130px;
+        background-image: cover;
+        width: 200px;
         opacity: 0.8;
         transition: 0.5s;
-        margin-left: 60px;
     }
     
     .react {
         margin-top: 20px;
-        width: 80px;
+        width: 120px;
     }
     
     .card1 img:hover {

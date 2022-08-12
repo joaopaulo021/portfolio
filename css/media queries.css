@@ -23,10 +23,9 @@
             width: 90px;
         }
         .cards {
-            display: grid;
+            display: flex;
             grid-template-columns: repeat(3, 100px);
             grid-gap: 50px;
-            margin-left: 200px;
             height: 100%;
             width: 100%;
         }
@@ -34,15 +33,17 @@
             width: 120px;
             height: 130px;
             margin-left: 10px;
+            margin: 0;
         }
         .card2 {
             width: 120px;
             height: 130px;
-            margin-left: 105px;
+            margin: 0;
         }
         .card3 {
             width: 120px;
             height: 130px;
+            margin: 0;
         }
         .cards img {
             width: 80px;
@@ -128,18 +129,10 @@
             position: relative;
         }
         .cards {
-            display: grid;
-            grid-template-columns: repeat(3, 20px);
-            grid-gap: 60px;
+            display: flex;
             margin: 0;
             height: 100%;
             width: 100%;
-        }
-        .card-container {
-            width: 100%;
-            flex-direction: row;
-            display: flex;
-            border: 2px solid gold;
         }
         .card1 {
             width: 120px;
@@ -149,19 +142,18 @@
         .card2 {
             width: 120px;
             height: 130px;
-            margin-left: 105px;
         }
         .card3 {
             width: 120px;
             height: 130px;
         }
-        .react {
-            margin-top: 15px;
-            width: 90px;
-        }
         .cards img {
             width: 80px;
             margin-left: 20px;
+        }
+        .react {
+            margin-top: 15px;
+            width: 90px;
         }
         /* PROJETOS */
         #projetos {
@@ -223,7 +215,7 @@
         .main-container .txt {
             font-size: 25px;
             width: 180px;
-            margin-bottom: 35px;
+            margin-bottom: 60px;
             margin-left: 10px;
         }
         .main-container .txt2 {
@@ -244,6 +236,8 @@
         }
         /* SKILLS */
         #skills {
+            display: flex;
+            align-items: center;
             height: 100%;
             width: 100%;
             border-top: 1px solid gray;
@@ -259,27 +253,29 @@
             width: 90px;
         }
         .cards {
-            display: grid;
-            grid-template-columns: repeat(3, 20px);
-            grid-gap: 5px;
             height: 100%;
             width: 100%;
         }
         .card1 {
             width: 100px;
+            margin: 0;
             height: 100px;
-            margin-left: 10px;
         }
         .card2 {
             width: 100px;
             height: 100px;
+            margin: 0;
         }
         .card3 {
             width: 100px;
             height: 100px;
+            margin: 0;
+            margin-right: 10px;
         }
         .cards img {
+            margin: 0;
             width: 65px;
+            justify-content: center;
         }
         /* PROJETOS */
         #projetos {
