@@ -56,6 +56,10 @@
         margin-top: 10px;
     }
     
+    .btnsSociais i {
+        color: white;
+    }
+    
     .btnsSociais span {
         border: 1px solid black;
         border-radius: 10px;
@@ -88,7 +92,6 @@
     }
     
     .btnsSociais i {
-        color: #d5d2c8;
         background-color: black;
         border-radius: 5px;
         width: 30px;
@@ -120,7 +123,6 @@
     
     .menu i {
         display: flex;
-        margin-top: 16px;
         margin-right: 15px;
         font-size: 30px;
         color: white;
@@ -497,10 +499,6 @@
         height: 200px;
     }
     
-    #contato i {
-        margin-top: 40px;
-    }
-    
     #contato a:visited {
         text-decoration: none;
         color: white;
@@ -529,9 +527,19 @@
         display: flex;
     }
     
+    .btnSociais-container span {
+        justify-content: center;
+        margin-top: 20px;
+        background-color: gray;
+        display: flex;
+        border-radius: 5px;
+        width: 100%;
+        height: 50px;
+    }
+    
     .btnSociais-container .linkedin {
-        border: 1px solid #1d1d1d;
         text-align: center;
+        color: white;
         height: 100%;
         text-align: center;
         margin-right: 40px;
@@ -541,6 +549,7 @@
     .btnSociais-container .whats {
         border: 1px solid #1d1d1d;
         text-align: center;
+        color: white;
         height: 100%;
         align-items: center;
         margin-right: 40px;
@@ -548,6 +557,7 @@
     
     .btnSociais-container .gitHub {
         border: 1px solid #1d1d1d;
+        color: white;
         text-align: center;
         height: 100%;
         align-items: center;

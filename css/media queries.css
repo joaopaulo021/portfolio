@@ -315,6 +315,7 @@
             justify-content: center;
             margin-top: 20px;
             background-color: gray;
+            display: flex;
             border-radius: 5px;
             width: 100%;
             height: 50px;
