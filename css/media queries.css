@@ -85,6 +85,10 @@
         .aside-container {
             display: none;
         }
+        .menu-mobile {
+            display: flex;
+            justify-content: end;
+        }
         .menu-mobile-container {
             width: 100%;
             height: 100%;
