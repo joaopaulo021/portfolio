@@ -258,52 +258,30 @@
         transition: 0.5s ease;
     }
     
-    .menu-hamb span {
+    .menu-hamb #menu-open {
         position: absolute;
-        border-radius: 5px;
-        border: 1px solid white;
-        background-color: white;
-        width: 40px;
-        margin-bottom: 10px;
-        height: 5px;
+        color: white;
+        font-size: 50px;
+        transition: all 0.3s ease;
+    }
+    
+    .menu-hamb #menu-close {
+        position: absolute;
+        color: white;
+        opacity: 0;
+        margin-left: 5px;
+        font-size: 50px;
+        transition: all 0.3s ease;
     }
     /* CLASSES ALTERADAS COM JS*/
     /* PARA TRANSFORMAR O MENU EM 'X' */
     
-    .menu-hamb-click {
-        width: 50px;
-        height: 100%;
-        margin-bottom: 10px;
+    .menu-hamb-click #menu-open {
+        opacity: 0;
     }
     
-    .menu-hamb-click span {
-        position: absolute;
-        border-radius: 5px;
-        border: 1px solid white;
-        background-color: white;
-        width: 40px;
-        height: 5px;
-    }
-    
-    .menu-hamb-click {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-    }
-    
-    .click-menu1 {
-        display: none;
-        transition: 0.5s;
-    }
-    
-    .click-menu2 {
-        transform: rotate(-300deg);
-        transition: 0.5s;
-    }
-    
-    .click-menu3 {
-        transform: rotate(300deg);
-        transition: 0.5s;
+    .menu-hamb-click #menu-close {
+        opacity: 1;
     }
     /*SEÇÃO MAIN */
     
